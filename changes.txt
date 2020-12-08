@@ -1,0 +1,6 @@
+
+1. moved all classes into 'classes' folder.
+2. Rewrote "Program.cs" to call static methods in CustomerReader class.
+3. Changed display output to conform to what the spec asked for, using string extension methods  in Conditioner static class for reusability.
+4. Used the CustomerReader static methods to read the various files.
+5. changed CSV reader to use the header row to assign the column names so columns can be in any order.
